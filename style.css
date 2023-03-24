@@ -1,0 +1,1318 @@
+/* -- Body Background -- */
+body {
+  margin: 0 !important;
+  height: 100vh !important;
+  background-image: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(19,19,19,0.35) 100%), url("https://www.JaydenYoon.com/images/JaydenYoonZK_Brownish_White_Background_Small.jpg") !important;  
+}
+
+/* -- Scrollbar Width-- */
+::-webkit-scrollbar {
+  width: 15px !important;
+	background-color: #1D1F22 !important;
+}
+
+/* -- Scrollbar Track -- */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+	border-radius: 10px !important;
+	background-color: #333842 !important;
+}
+
+/* -- Scrollbar Thumb -- */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3) !important;
+	background-color: #9FB269 !important;
+}
+
+/* -- Scrollbar Thumb Hover -- */
+::-webkit-scrollbar-thumb:hover {
+	background-color: #89995b !important;
+}
+
+/* -- Scrollbar Width-- */
+body::-webkit-scrollbar {
+  width: 15px !important;
+	background-color: #1D1F22 !important;
+}
+
+/* -- Scrollbar Track -- */
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+	border-radius: 10px !important;
+	background-color: #333842 !important;
+}
+
+/* -- Scrollbar Thumb -- */
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px !important;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3) !important;
+	background-color: #9FB269 !important;
+}
+
+/* -- Scrollbar Thumb Hover -- */
+body::-webkit-scrollbar-thumb:hover {
+	background-color: #89995b !important;
+}
+
+
+/* -- Center Everything -- */
+.Center {
+	display: flex !important; 
+	justify-content: center !important;
+  align-items: center !important;
+	margin-top: 80px !important;
+  margin-bottom: 80px !important;
+	max-width: 100% !important;
+  width: 100vw !important;
+}
+
+
+/* -- Button Container -- */
+.ContainerPro {
+	display: inline-flex !important;
+	flex-wrap: wrap !important;
+	flex:1 !important;
+	justify-content: center !important;
+}
+
+
+/* -- JaydenART - Realistic 3D Social CSS Button -- */
+.JaySocialButton {
+	display: flex !important;
+	justify-content: center !important;
+	height: 2.05rem !important;
+	padding: 0.375rem 0.375rem 0 !important;
+	background: #eee !important;
+	border-radius: 0.25rem !important;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.3) !important;
+	perspective: 30rem !important;
+  margin-top: 20px !important;
+	margin-bottom: 20px !important;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+
+/* -- JaydenART - Realistic 3D CSS Button : Cover Animation 1 (hover) -- */
+.JaySocialButton:hover .ButtonCover {
+	transform: rotateX(-120deg) !important;
+}
+
+/* -- JaydenART - Realistic 3D CSS Button : Cover Animation 2 -- */
+.JaySocialButton, .JaySocialButton div {
+	transition-duration: 0.7s !important;
+	transition-timing-function: ease !important;
+}
+
+/* -- JaydenART - Realistic 3D CSS Button : Shadow Animation (hover) -- */
+.JaySocialButton:hover .Shadow {
+	transform: rotateX(45deg) scale(0.95) !important;
+	opacity: 1 !important;
+}
+
+/* -- Shadow -- */
+.Shadow {
+	position: absolute !important;
+	top: 100% !important;
+	left: 0 !important;
+	width: 100% !important;
+	height: 3.2rem !important;
+	border-radius: 0.5rem !important;
+	opacity: 0 !important;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, transparent 100%) !important;
+	transform: rotateX(90deg) !important;
+	transform-origin: center top !important;
+}
+
+/* -- Button Cover 3D -- */
+.ButtonCover {
+	transform-origin: center bottom !important;
+	transform-style: preserve-3d !important;
+	text-align: center !important;
+	z-index: 99 !important;
+}
+
+/* -- Button Cover Position -- */
+.ButtonCover, .ButtonCover > *{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* -- Button Cover SVG -- */
+.ButtonCover svg {
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	filter: drop-shadow(0 1px 2px rgba(0,0,0,0.25));
+}
+
+
+/* -- Inner & Outer -- */
+.Inner, .Outer {
+  -webkit-border-radius: none;
+	border-radius: 0.25rem;
+	background-image: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.1) 100%);
+}
+
+/* -- Outer -- */
+.Outer {
+	transform: translateZ(0.25rem);
+}
+
+/* -- Edge -- */
+.Edge {
+	top: 0.25rem;
+	height: 0.25rem;
+	transform: rotateX(90deg);
+	transform-origin: center top;
+}
+
+
+/* -- Twitter Button Inner Color -- */
+.TwitterButton .Inner {
+	background: rgb(24,142,214) !important;
+	background: linear-gradient(0deg, rgba(24,142,214,1) 0%, rgba(27,153,230,1) 33%, rgba(77,179,241,1) 100%) !important;
+}
+
+/* -- Twitter Button Outer Color -- */
+.TwitterButton .Outer{
+	background: rgb(24,142,214) !important;
+	background: linear-gradient(0deg, rgba(24,142,214,1) 0%, rgba(27,153,230,1) 33%, rgba(29,161,242,1) 100%) !important;
+}
+
+/* -- Twitter Button Inner Edge -- */
+.TwitterButton .Edge {
+	background: rgb(24,142,214) !important;
+	background: linear-gradient(0deg, rgba(24,142,214,1) 0%, rgba(27,153,230,1) 33%, rgba(29,161,242,1) 100%) !important;
+}
+
+
+/* -- Facebook Button Inner Color -- */
+.FacebookButton .Inner {
+	background: rgb(48,83,156) !important;
+	background: linear-gradient(0deg, rgba(48,83,156,1) 0%, rgba(53,93,175,1) 33%, rgba(81,125,214,1) 100%) !important;
+}
+
+/* -- Facebook Button Outer Color -- */
+.FacebookButton .Outer {
+	background: rgb(48,83,156) !important;
+	background: linear-gradient(0deg, rgba(48,83,156,1) 0%, rgba(53,93,175,1) 33%, rgba(66,103,178,1) 100%) !important;
+}
+
+/* -- Facebook Button Edge Color -- */
+.FacebookButton .Edge {
+	background: rgb(48,83,156) !important;
+	background: linear-gradient(0deg, rgba(48,83,156,1) 0%, rgba(53,93,175,1) 33%, rgba(81,125,214,1) 100%) !important;
+}
+
+/* -- Facebook Button SVG -- */
+.FacebookButton svg {
+	width: 30px;
+	height: 30px;
+	margin-top: 4px;
+}
+
+
+/* -- Instagram Button Inner Color -- */
+.InstagramButton .Inner {
+	background: #f09433 !important;
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ) !important;
+}
+
+/* -- Instagram Button Outer Color -- */
+.InstagramButton .Outer {
+	background: #f09433 !important;
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ) !important;
+}
+
+/* -- Instagram Button Edge Color -- */
+.InstagramButton .Edge {
+	background: #d6249f !important;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+}
+
+/* -- Instagram Button SVG -- */
+.InstagramButton svg {
+	width: 25px;
+	height: 25px;
+	margin-top: 6.5px;
+}
+
+/* -- Instagram Button Color -- */
+.InstagramButton2 {
+  -webkit-appearance: none !important;
+	background: #f09433 !important;
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ) !important;
+	border: none !important;
+	padding: auto;
+  padding-left: 28px;
+  padding-right: 10px;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	color: #fff !important;
+	font-weight: bold;
+	font-size: 13px;
+	justify-content: center !important;
+	cursor: pointer !important;
+  
+  border-radius: 3px 0px 0px 3px !important;
+  -moz-border-radius: 3px 0px 0px 3px !important;
+  -webkit-border-radius: 3px 0px 0px 3px !important;
+  border: none;
+}
+
+.InstagramButton2:hover {
+  -webkit-appearance: none !important;
+	background: #f09433 !important;
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 5%, #dc2743 30%, #cc2366 55%, #bc1888 70%) !important;
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 5%,#dc2743 30%,#cc2366 55%,#bc1888 70%) !important;
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 5%,#dc2743 30%,#cc2366 55%,#bc1888 70%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ) !important;
+}
+
+.InstagramButton2 a {
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+  margin-top: 6px !important;
+}
+
+/* -- Instagram Icon On Button -- */
+.InstaIcon {
+  display: inline-flex;
+  position: absolute;
+  width: 16px !important;
+  height: 16px !important;
+  justify-content: center !important;
+  margin-top: -1px !important;
+  margin-left: -20px !important;
+}
+
+.InstagramFollowers {
+  -webkit-appearance: none !important;
+	background: #ffffff !important;
+	padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	color: #686868 !important;
+	font-weight: 1;
+	font-size: 13px;
+	justify-content: center !important;
+	cursor: text !important;
+  
+  border-radius: 0px 3px 3px 0px !important;
+  -moz-border-radius: 0px 3px 3px 0px !important;
+  -webkit-border-radius: 0px 3px 3px 0px !important;
+  border: 1px solid #d6d6d6 !important;
+}
+
+
+/* -- YouTube Button Inner -- */
+.YouTubeButton .Inner {
+	background: rgb(213,0,0) !important;
+	background: linear-gradient(0deg, rgba(213,0,0,1) 0%, rgba(223,0,0,1) 33%, rgba(255,65,44,1) 100%) !important;
+}
+
+/* -- YouTube Button Outer -- */
+.YouTubeButton .Outer {
+	background: rgb(213,0,0) !important;
+	background: linear-gradient(0deg, rgba(213,0,0,1) 0%, rgba(223,0,0,1) 33%, rgba(255,0,0,1) 100%) !important;
+}
+
+/* -- YouTube Button Edge -- */
+.YouTubeButton .Edge {
+	background: rgb(213,0,0) !important;
+	background: linear-gradient(0deg, rgba(213,0,0,1) 0%, rgba(223,0,0,1) 33%, rgba(255,0,0,1) 100%) !important;
+}
+
+/* -- YouTube Button Color -- */
+.YouTubeButton2 {
+  -webkit-appearance: none !important;
+	background: #D63B29 !important;
+	border: none !important;
+	padding: auto;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	border-radius: 3px !important;
+	font-weight: bold !important;
+	font-size: 13px bold !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+.YouTubeButton2:hover {
+  background: #BD302A !important;
+}
+
+
+/* -- TikTok Button Inner Color -- */
+.TikTokButton .Inner {
+  background: rgba(31,67,71,1) !important;
+  background: -moz-linear-gradient(top, rgba(31,67,71,1) 0%, rgba(15,42,46,1) 11%, rgba(9,32,36,1) 25%, rgba(0,0,0,1) 87%, rgba(56,7,21,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,67,71,1)), color-stop(11%, rgba(15,42,46,1)), color-stop(25%, rgba(9,32,36,1)), color-stop(87%, rgba(0,0,0,1)), color-stop(100%, rgba(56,7,21,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(31,67,71,1) 0%, rgba(15,42,46,1) 11%, rgba(9,32,36,1) 25%, rgba(0,0,0,1) 87%, rgba(56,7,21,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(31,67,71,1) 0%, rgba(15,42,46,1) 11%, rgba(9,32,36,1) 25%, rgba(0,0,0,1) 87%, rgba(56,7,21,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(31,67,71,1) 0%, rgba(15,42,46,1) 11%, rgba(9,32,36,1) 25%, rgba(0,0,0,1) 87%, rgba(56,7,21,1) 100%) !important;
+  
+  -webkit-box-shadow: inset 2px 2px 0px 0px #06F1EA, inset -3px -2px 0px 0px #FF014F !important;
+  box-shadow: inset 2px 2px 0px 0px #06F1EA, inset -3px -2px 0px 0px #FF014F !important;
+}
+
+/* -- TikTok Button Outer Color -- */
+.TikTokButton .Outer {
+  background: rgba(31,67,71,1) !important;
+  background: -moz-linear-gradient(top, rgba(31,67,71,1) 0%, rgba(15,42,46,1) 11%, rgba(9,32,36,1) 25%, rgba(0,0,0,1) 87%, rgba(56,7,21,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(31,67,71,1)), color-stop(11%, rgba(15,42,46,1)), color-stop(25%, rgba(9,32,36,1)), color-stop(87%, rgba(0,0,0,1)), color-stop(100%, rgba(56,7,21,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(31,67,71,1) 0%, rgba(15,42,46,1) 11%, rgba(9,32,36,1) 25%, rgba(0,0,0,1) 87%, rgba(56,7,21,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(31,67,71,1) 0%, rgba(15,42,46,1) 11%, rgba(9,32,36,1) 25%, rgba(0,0,0,1) 87%, rgba(56,7,21,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(31,67,71,1) 0%, rgba(15,42,46,1) 11%, rgba(9,32,36,1) 25%, rgba(0,0,0,1) 87%, rgba(56,7,21,1) 100%) !important;
+  
+  -webkit-box-shadow: inset 2px 2px 0px 0px #06F1EA, inset -2px -1px 0px 0px #FF014F !important;
+  box-shadow: inset 2px 2px 0px 0px #06F1EA, inset -2px -1px 0px 0px #FF014F !important;
+  
+  -webkit-border-radius: none !important;
+  border-radius: 0.25rem !important;
+}
+
+/* -- TikTok Button Edge Color -- */
+.TikTokButton .Edge {
+  background: #FF014F !important;
+  background: -moz-linear-gradient(left, #FF014F 0%, #41EDE8 100%) !important;
+  background: -webkit-linear-gradient(left, #FF014F 0%, #41EDE8 100%) !important;
+  background: linear-gradient(to right, #FF014F 0%, #41EDE8 100%) !important;
+}
+
+/* -- TikTok Button SVG -- */
+.TikTokButton svg {
+	width: 20px;
+	height: 20px;
+	margin-top: 9.5px;
+}
+
+/* -- TikTok Button Color -- */
+.TikTokButton2 {
+  -webkit-appearance: none !important;
+	background: #ec445a !important;
+	border: none !important;
+	padding: auto !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	color: #fff !important;
+	border-radius: 3px !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+.TikTokButton2 a {
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+  margin-top: 6px !important;
+}
+
+.TikTokButton2:hover {
+  -webkit-appearance: none !important;
+	background: #b23342 !important;
+}
+
+
+/* -- Twitch Button Inner Color -- */
+.TwitchButton .Inner {
+  background: rgba(90,90,117,1) !important;
+  background: -moz-linear-gradient(top, rgba(90,90,117,1) 0%, rgba(76,76,97,1) 9%, rgba(42,42,56,1) 95%, rgba(42,42,56,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(90,90,117,1)), color-stop(9%, rgba(76,76,97,1)), color-stop(95%, rgba(42,42,56,1)), color-stop(100%, rgba(42,42,56,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(90,90,117,1) 0%, rgba(76,76,97,1) 9%, rgba(42,42,56,1) 95%, rgba(42,42,56,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(90,90,117,1) 0%, rgba(76,76,97,1) 9%, rgba(42,42,56,1) 95%, rgba(42,42,56,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(90,90,117,1) 0%, rgba(76,76,97,1) 9%, rgba(42,42,56,1) 95%, rgba(42,42,56,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(90,90,117,1) 0%, rgba(76,76,97,1) 9%, rgba(42,42,56,1) 95%, rgba(42,42,56,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5a75', endColorstr='#2a2a38', GradientType=0 ) !important;
+}
+
+/* -- Twitch Button Outer Color -- */
+.TwitchButton .Outer {
+  background: rgba(63,63,82,1) !important;
+  background: -moz-linear-gradient(top, rgba(63,63,82,1) 0%, rgba(55,55,71,1) 29%, rgba(46,46,60,1) 69%, rgba(39,39,51,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(63,63,82,1)), color-stop(29%, rgba(55,55,71,1)), color-stop(69%, rgba(46,46,60,1)), color-stop(100%, rgba(39,39,51,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(63,63,82,1) 0%, rgba(55,55,71,1) 29%, rgba(46,46,60,1) 69%, rgba(39,39,51,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(63,63,82,1) 0%, rgba(55,55,71,1) 29%, rgba(46,46,60,1) 69%, rgba(39,39,51,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(63,63,82,1) 0%, rgba(55,55,71,1) 29%, rgba(46,46,60,1) 69%, rgba(39,39,51,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(63,63,82,1) 0%, rgba(55,55,71,1) 29%, rgba(46,46,60,1) 69%, rgba(39,39,51,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f3f52', endColorstr='#272733', GradientType=0 ) !important;
+}
+
+/* -- Twitch Button Edge Color -- */
+.TwitchButton .Edge {
+	background: rgba(120,120,143,1) !important;
+  background: -moz-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(120,120,143,1)), color-stop(100%, rgba(42,42,56,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78788f', endColorstr='#2a2a38', GradientType=0 ) !important;
+}
+
+/* -- Twitch Button SVG -- */
+.TwitchButton svg {
+	width: 20px;
+	height: 20px;
+	margin-top: 9.5px;
+}
+
+/* -- Twitch Button Color -- */
+.TwitchButton2 {
+  -webkit-appearance: none !important;
+	background: #8650F6 !important;
+	border: none !important;
+	padding: auto;
+  padding-left: 31px;
+  padding-right: 10px;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	color: #fff !important;
+	border-radius: 3px !important;
+	font-weight: bold;
+	font-size: 13px;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+.TwitchButton2 a {
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+  margin-top: 6px !important;
+}
+
+.TwitchButton2:hover {
+  -webkit-appearance: none !important;
+	background: #5531aa !important;
+}
+
+/* -- Twitch Icon On Button -- */
+.TwitchIcon {
+  display: inline-flex;
+  position: absolute;
+  width: 14px !important;
+  height: 14px !important;
+  justify-content: center !important;
+  margin-top: 1px !important;
+  margin-left: -21px !important;
+}
+
+
+/* -- LinkedIn Button Inner Color -- */
+.LinkedInButton .Inner {
+  background: rgba(76,144,207,1) !important;
+  background: -moz-linear-gradient(top, rgba(76,144,207,1) 0%, rgba(56,121,181,1) 29%, rgba(48,106,161,1) 69%, rgba(35,88,138,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,144,207,1)), color-stop(29%, rgba(56,121,181,1)), color-stop(69%, rgba(48,106,161,1)), color-stop(100%, rgba(35,88,138,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(76,144,207,1) 0%, rgba(56,121,181,1) 29%, rgba(48,106,161,1) 69%, rgba(35,88,138,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(76,144,207,1) 0%, rgba(56,121,181,1) 29%, rgba(48,106,161,1) 69%, rgba(35,88,138,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(76,144,207,1) 0%, rgba(56,121,181,1) 29%, rgba(48,106,161,1) 69%, rgba(35,88,138,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(76,144,207,1) 0%, rgba(56,121,181,1) 29%, rgba(48,106,161,1) 69%, rgba(35,88,138,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c90cf', endColorstr='#23588a', GradientType=0 ) !important;
+}
+
+/* -- LinkedIn Button Outer Color -- */
+.LinkedInButton .Outer {
+  background: rgba(59,127,191,1) !important;
+  background: -moz-linear-gradient(top, rgba(59,127,191,1) 0%, rgba(49,110,168,1) 29%, rgba(38,94,147,1) 69%, rgba(34,85,133,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(59,127,191,1)), color-stop(29%, rgba(49,110,168,1)), color-stop(69%, rgba(38,94,147,1)), color-stop(100%, rgba(34,85,133,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(59,127,191,1) 0%, rgba(49,110,168,1) 29%, rgba(38,94,147,1) 69%, rgba(34,85,133,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(59,127,191,1) 0%, rgba(49,110,168,1) 29%, rgba(38,94,147,1) 69%, rgba(34,85,133,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(59,127,191,1) 0%, rgba(49,110,168,1) 29%, rgba(38,94,147,1) 69%, rgba(34,85,133,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(59,127,191,1) 0%, rgba(49,110,168,1) 29%, rgba(38,94,147,1) 69%, rgba(34,85,133,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b7fbf', endColorstr='#225585', GradientType=0 ) !important;
+}
+
+/* -- LinkedIn Button Edge Color -- */
+.LinkedInButton .Edge {
+	background: rgba(76,144,207,1) !important;
+  background: -moz-linear-gradient(top, rgba(76,144,207,1) 0%, rgba(35,88,138,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76,144,207,1)), color-stop(100%, rgba(35,88,138,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(76,144,207,1) 0%, rgba(35,88,138,1) 100%);
+  background: -o-linear-gradient(top, rgba(76,144,207,1) 0%, rgba(35,88,138,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(76,144,207,1) 0%, rgba(35,88,138,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(76,144,207,1) 0%, rgba(35,88,138,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c90cf', endColorstr='#23588a', GradientType=0 ) !important;
+}
+
+/* -- LinkedIn Button SVG -- */
+.LinkedInButton svg {
+	width: 18px;
+	height: 18px;
+	margin-top: 9.5px;
+}
+
+/* -- LinkedIn Button Color -- */
+.LinkedInButton2 {
+  -webkit-appearance: none !important;
+	background: #265F93 !important;
+	border: none !important;
+	padding: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	color: #fff !important;
+	border-radius: 3px !important;
+	font-weight: 500;
+	font-size: 13px;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+
+/* -- Cameo Button Inner Color -- */
+.CameoButton .Inner {
+  background: rgba(56,56,56,1) !important;
+  background: -moz-linear-gradient(top, rgba(56,56,56,1) 0%, rgba(51,51,51,1) 29%, rgba(33,33,33,1) 69%, rgba(17,17,17,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(56,56,56,1)), color-stop(29%, rgba(51,51,51,1)), color-stop(69%, rgba(33,33,33,1)), color-stop(100%, rgba(17,17,17,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(56,56,56,1) 0%, rgba(51,51,51,1) 29%, rgba(33,33,33,1) 69%, rgba(17,17,17,1) 100%);
+  background: -o-linear-gradient(top, rgba(56,56,56,1) 0%, rgba(51,51,51,1) 29%, rgba(33,33,33,1) 69%, rgba(17,17,17,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(56,56,56,1) 0%, rgba(51,51,51,1) 29%, rgba(33,33,33,1) 69%, rgba(17,17,17,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(56,56,56,1) 0%, rgba(51,51,51,1) 29%, rgba(33,33,33,1) 69%, rgba(17,17,17,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#111111', GradientType=0 ) !important;
+}
+
+/* -- Cameo Button Outer Color -- */
+.CameoButton .Outer {
+  background: rgba(54,53,54,1) !important;
+  background: -moz-linear-gradient(top, rgba(54,53,54,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(17,17,17,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(54,53,54,1)), color-stop(29%, rgba(36,36,36,1)), color-stop(69%, rgba(26,26,26,1)), color-stop(100%, rgba(17,17,17,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(54,53,54,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(17,17,17,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(54,53,54,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(17,17,17,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(54,53,54,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(17,17,17,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(54,53,54,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(17,17,17,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363536', endColorstr='#111111', GradientType=0 ) !important;
+}
+
+/* -- Cameo Button Edge Color -- */
+.CameoButton .Edge {
+	background: rgba(120,120,143,1) !important;
+  background: -moz-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(120,120,143,1)), color-stop(100%, rgba(42,42,56,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78788f', endColorstr='#2a2a38', GradientType=0 ) !important;
+}
+
+/* -- Cameo Button SVG -- */
+.CameoButton svg {
+	width: 20px;
+	height: 20px;
+	margin-top: 9.5px;
+}
+
+/* -- Cameo Button Color -- */
+.CameoButton2 {
+  -webkit-appearance: none !important;
+	background: #4b4b4b !important;
+	border: none !important;
+	padding: auto !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	color: #fff !important;
+	border-radius: 3px !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+.CameoButton2 a {
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+  margin-top: 6px !important;
+}
+
+.CameoButton2:hover {
+  -webkit-appearance: none !important;
+	background: #161616 !important;
+}
+
+
+/* -- Dribbble Button Inner Color -- */
+.DribbbleButton .Inner {
+  background: rgba(245,139,183,1) !important;
+  background: -moz-linear-gradient(top, rgba(245,139,183,1) 0%, rgba(240,105,161,1) 29%, rgba(235,87,146,1) 69%, rgba(214,69,127,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,139,183,1)), color-stop(29%, rgba(240,105,161,1)), color-stop(69%, rgba(235,87,146,1)), color-stop(100%, rgba(214,69,127,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(245,139,183,1) 0%, rgba(240,105,161,1) 29%, rgba(235,87,146,1) 69%, rgba(214,69,127,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(245,139,183,1) 0%, rgba(240,105,161,1) 29%, rgba(235,87,146,1) 69%, rgba(214,69,127,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(245,139,183,1) 0%, rgba(240,105,161,1) 29%, rgba(235,87,146,1) 69%, rgba(214,69,127,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(245,139,183,1) 0%, rgba(240,105,161,1) 29%, rgba(235,87,146,1) 69%, rgba(214,69,127,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f58bb7', endColorstr='#d6457f', GradientType=0 ) !important;
+}
+
+/* -- Dribbble Button Outer Color -- */
+.DribbbleButton .Outer {
+  background: rgba(240,118,167,1) !important;
+  background: -moz-linear-gradient(top, rgba(240,118,167,1) 0%, rgba(240,91,151,1) 29%, rgba(234,76,137,1) 69%, rgba(214,69,127,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(240,118,167,1)), color-stop(29%, rgba(240,91,151,1)), color-stop(69%, rgba(234,76,137,1)), color-stop(100%, rgba(214,69,127,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(240,118,167,1) 0%, rgba(240,91,151,1) 29%, rgba(234,76,137,1) 69%, rgba(214,69,127,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(240,118,167,1) 0%, rgba(240,91,151,1) 29%, rgba(234,76,137,1) 69%, rgba(214,69,127,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(240,118,167,1) 0%, rgba(240,91,151,1) 29%, rgba(234,76,137,1) 69%, rgba(214,69,127,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(240,118,167,1) 0%, rgba(240,91,151,1) 29%, rgba(234,76,137,1) 69%, rgba(214,69,127,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f076a7', endColorstr='#d6457f', GradientType=0 ) !important;
+}
+
+/* -- Dribbble Button Edge Color -- */
+.DribbbleButton .Edge {
+  background: rgba(230,106,155,1) !important;
+  background: -moz-linear-gradient(top, rgba(230,106,155,1) 0%, rgba(214,69,127,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,106,155,1)), color-stop(100%, rgba(214,69,127,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(230,106,155,1) 0%, rgba(214,69,127,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(230,106,155,1) 0%, rgba(214,69,127,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(230,106,155,1) 0%, rgba(214,69,127,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(230,106,155,1) 0%, rgba(214,69,127,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e66a9b', endColorstr='#d6457f', GradientType=0 ) !important;
+}
+
+/* -- Dribbble Button SVG -- */
+.DribbbleButton svg {
+	width: 20px;
+	height: 20px;
+	margin-top: 9.5px;
+}
+
+/* -- Dribbble Button Color -- */
+.DribbbleButton2 {
+  -webkit-appearance: none !important;
+	background: #dbdbdb !important;
+	border: none !important;
+	padding: auto;
+  padding-left: 28px;
+  padding-right: 10px;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	border-radius: 3px !important;
+	font-weight: bold !important;
+	font-size: 13px bold !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+.DribbbleButton2 a {
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	color: #0D0C21 !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+  margin-top: 6px !important;
+}
+
+.DribbbleButton2:hover {
+  -webkit-appearance: none !important;
+	background: #a0a0a0 !important;
+}
+
+/* -- Dribbble Icon On Button -- */
+.DribbbleIcon {
+  display: inline-flex;
+  position: absolute;
+  width: 10px !important;
+  height: 10px !important;
+  justify-content: center !important;
+  margin-top: 2px !important;
+  margin-left: -18px !important;
+}
+
+
+/* -- GuruShots Button Inner Color -- */
+.GuruShotsButton .Inner {
+background: rgba(66,66,66,1) !important;
+background: -moz-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(29%, rgba(51,51,51,1)), color-stop(69%, rgba(36,36,36,1)), color-stop(100%, rgba(0,0,0,1))) !important;
+background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+background: -o-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+background: -ms-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#000000', GradientType=0 ) !important;
+}
+
+/* -- GuruShots Button Outer Color -- */
+.GuruShotsButton .Outer {
+  background: rgba(46,46,46,1) !important;
+  background: -moz-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(46,46,46,1)), color-stop(29%, rgba(36,36,36,1)), color-stop(69%, rgba(26,26,26,1)), color-stop(100%, rgba(0,0,0,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#000000', GradientType=0 ) !important;
+}
+
+/* -- GuruShots Button Edge Color -- */
+.GuruShotsButton .Edge {
+	background: rgba(120,120,143,1) !important;
+  background: -moz-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(120,120,143,1)), color-stop(100%, rgba(42,42,56,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78788f', endColorstr='#2a2a38', GradientType=0 ) !important;
+}
+
+/* -- GuruShots Button SVG -- */
+.GuruShotsButton svg {
+	width: 20px;
+	height: 20px;
+	margin-top: 9.5px;
+}
+
+/* -- GuruShots Button Color -- */
+.GuruShotsButton2 {
+  -webkit-appearance: none !important;
+	background: #238ccc !important;
+	border: none !important;
+	padding: auto !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	color: #fff !important;
+	border-radius: 3px !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+.GuruShotsButton2 a {
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+  margin-top: 6px !important;
+}
+
+.GuruShotsButton2:hover {
+  -webkit-appearance: none !important;
+	background: #135e89 !important;
+}
+
+
+/* -- Unsplash Button Inner Color -- */
+.UnsplashButton .Inner {
+  background: rgba(255,255,255,1) !important;
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(29%, rgba(247,247,247,1)), color-stop(69%, rgba(230,230,230,1)), color-stop(100%, rgba(214,214,214,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6d6d6', GradientType=0 ) !important;
+}
+
+/* -- Unsplash Button Outer Color -- */
+.UnsplashButton .Outer {
+  background: rgba(255,255,255,1) !important;
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(29%, rgba(247,247,247,1)), color-stop(69%, rgba(230,230,230,1)), color-stop(100%, rgba(214,214,214,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 29%, rgba(230,230,230,1) 69%, rgba(214,214,214,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6d6d6', GradientType=0 ) !important;
+}
+
+/* -- Unsplash Button Edge Color -- */
+.UnsplashButton .Edge {
+  background: rgba(237,237,237,1) !important;
+  background: -moz-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(186,186,186,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,237,237,1)), color-stop(100%, rgba(186,186,186,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(186,186,186,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(186,186,186,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(186,186,186,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(237,237,237,1) 0%, rgba(186,186,186,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#bababa', GradientType=0 ) !important;
+}
+
+/* -- Unsplash Button SVG -- */
+.UnsplashButton svg {
+	width: 20px;
+	height: 20px;
+	margin-top: 9.5px;
+}
+
+/* -- Unsplash Button Color -- */
+.UnsplashButton2 {
+  -webkit-appearance: none !important;
+	background: #347FF6 !important;
+	border: none !important;
+	padding: auto;
+  padding-left: 28px;
+  padding-right: 10px;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	color: #ffffff !important;
+	border-radius: 3px !important;
+	font-weight: bold;
+	font-size: 13px;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+.UnsplashButton2 a {
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+  margin-top: 6px !important;
+}
+
+.UnsplashButton2:hover {
+  -webkit-appearance: none !important;
+	background: #2257a3 !important;
+}
+
+/* -- Unsplash Button Color -- */
+.UnsplashButton3 {
+  -webkit-appearance: none !important;
+	background: #121212 !important;
+	border: none !important;
+	padding: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 6px;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	color: #ffffff !important;
+	border-radius: 3px !important;
+	font-weight: bold;
+	font-size: 13px;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+.UnsplashButton3 a {
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	font-size: 13px !important;
+	justify-content: center !important;
+	cursor: pointer !important;
+  margin-top: 6px !important;
+}
+
+.UnsplashButton3:hover {
+  -webkit-appearance: none !important;
+	background: #6d6d6d !important;
+}
+
+/* -- Unsplash Icon On Button -- */
+.UnsplashIcon {
+  display: inline-flex;
+  position: absolute;
+  width: 14px !important;
+  height: 14px !important;
+  justify-content: center !important;
+  margin-top: 1px !important;
+  margin-left: -20px !important;
+}
+
+
+/* -- CodePen Button Inner Color -- */
+.CodePenButton .Inner {
+background: rgba(66,66,66,1) !important;
+background: -moz-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(66,66,66,1)), color-stop(29%, rgba(51,51,51,1)), color-stop(69%, rgba(36,36,36,1)), color-stop(100%, rgba(0,0,0,1))) !important;
+background: -webkit-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+background: -o-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+background: -ms-linear-gradient(top, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+background: linear-gradient(to bottom, rgba(66,66,66,1) 0%, rgba(51,51,51,1) 29%, rgba(36,36,36,1) 69%, rgba(0,0,0,1) 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#000000', GradientType=0 ) !important;
+}
+
+/* -- CodePen Button Outer Color -- */
+.CodePenButton .Outer {
+  background: rgba(46,46,46,1) !important;
+  background: -moz-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(46,46,46,1)), color-stop(29%, rgba(36,36,36,1)), color-stop(69%, rgba(26,26,26,1)), color-stop(100%, rgba(0,0,0,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(46,46,46,1) 0%, rgba(36,36,36,1) 29%, rgba(26,26,26,1) 69%, rgba(0,0,0,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#000000', GradientType=0 ) !important;
+}
+
+/* -- CodePen Button Edge Color -- */
+.CodePenButton .Edge {
+	background: rgba(120,120,143,1) !important;
+  background: -moz-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(120,120,143,1)), color-stop(100%, rgba(42,42,56,1))) !important;
+  background: -webkit-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -o-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: -ms-linear-gradient(top, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  background: linear-gradient(to bottom, rgba(120,120,143,1) 0%, rgba(42,42,56,1) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78788f', endColorstr='#2a2a38', GradientType=0 ) !important;
+}
+
+/* -- CodePen Button SVG -- */
+.CodePenButton svg {
+	width: 20px;
+	height: 20px;
+	margin-top: 9.5px;
+}
+
+/* -- CodePen Button Color -- */
+.CodePenButton2 {
+  -webkit-appearance: none !important;
+	background: #5B6071 !important;
+	border: none !important;
+	padding: auto;
+  padding-left: 28px;
+  padding-right: 10px;
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	height: 1.7rem !important;
+	box-sizing: border-box !important;
+	border-radius: 3px !important;
+	font-weight: bold;
+	font-size: 13px;
+	justify-content: center !important;
+	cursor: pointer !important;
+}
+
+.CodePenButton2 a {
+	white-space: nowrap !important;
+	text-align: center !important;
+	text-decoration: none !important;
+	display: inline-block !important;
+	color: #ffffff !important;
+	font-weight: bold;
+	font-size: 13px;
+	justify-content: center !important;
+	cursor: pointer !important;
+  margin-top: 6px !important;
+}
+
+.CodePenButton2:hover a {
+    color: #000000 !important;
+}
+
+.CodePenButton2:hover {
+  -webkit-appearance: none !important;
+	background: #72C37B !important;
+}
+
+/* -- CodePen Icon On Button -- */
+.CodePenIcon {
+  display: inline-flex;
+  position: absolute;
+  width: 12px !important;
+  height: 12px !important;
+  justify-content: center !important;
+  margin-top: 2px !important;
+  margin-left: -19px !important;
+}
+
+.CodePen-Plus-1{
+  fill: white;
+}
+
+.CodePenButton2:hover .CodePen-Plus-1{
+  fill: black;
+}
+
+
+/* -- Hidden Line Break -- */
+span {
+	white-space: pre;
+}
+
+span:after {
+	content: ' ';
+}
+
+span.line-break {
+	display: block;
+}
+
+span.line-break:after {
+	content: none;
+}
+
+
+/* -- Copyright Texts -- */
+.Copyright a {
+	text-decoration: none;
+	color: #C79E5B;
+}
+
+
+/* -- Superscript Registered Trademark Symbol -- */
+sup {
+	position: relative;
+	font-size: 40%;
+	line-height: 0;
+	vertical-align: baseline;
+	top: -1.1em;
+	left: 0.3em;
+}
+
+
+/* -- Center Copyright Texts & Word Breaks -- */
+.CenterCopyright {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  
+  text-align: center;
+	align-items: center;
+	justify-content: center;
+  text-align: center;
+  
+  color: #e0e0e0;
+  font: bold 15px helvetica;
+  text-shadow: 0px -1.5px 0px rgba(0, 0, 0, 1),0px 1px 1.5px rgba(255, 255, 255, 0.25);
+  
+  background-color: #333742;
+  -webkit-box-shadow: 0px 10px 3px 11px rgba(0,0,0,0.6);
+  box-shadow: 0px 10px 3px 11px rgba(0,0,0,0.6);
+  
+/* Word Break */
+	word-wrap: break-word;
+	word-break: break-word;
+	overflow-wrap: break-word;
+	-ms-word-break: break-word;
+
+/* None Standard For Webkit */
+	-webkit-hyphens: none;
+	moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+
+/* -- All Rights Reserved Same Line -- */
+.AllRightsReserved {
+  display: inline-block;
+}
+
+
+/* -- Text Highlight + Shadow Removed -- */
+::-moz-selection {
+  background: #9EB168; 
+  color: #ffffff; 
+  text-shadow: none; 
+}
+
+::selection { 
+  background: #9EB168; 
+  color: #ffffff; 
+  text-shadow: none; 
+}
+
+
+.TooltipWrapper {
+  cursor: pointer;
+  font-family: helvetica;
+  text-align: center;
+  
+  /* Webkit Flicker Fix */
+  -webkit-transform: translateZ(0);
+  
+  /* Webkit Text Rendering Fix */
+  -webkit-font-smoothing: antialiased;
+}
+
+.TooltipWrapper .JayTooltip {
+  background: rgba(0,0,0,0.6);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.86) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,0,0,0.6)), color-stop(100%, rgba(0,0,0,0.86)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.86) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.86) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.86) 100%);
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.86) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+  
+  border-radius: 10px;
+  bottom: 100%;
+  color: #fff;
+  display: block;
+  margin-bottom: 15px;
+  opacity: 0;
+  padding: 13px;
+  pointer-events: none;
+  position: absolute;
+  width: auto;
+  font-size: 13px;
+  
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  transform: translateY(10px);
+  -webkit-transition: all .25s ease-out;
+  -moz-transition: all .25s ease-out;
+  -ms-transition: all .25s ease-out;
+  -o-transition: all .25s ease-out;
+  transition: all .25s ease-out;
+  
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.30);
+  -moz-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.30);
+  -ms-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.30);
+  -o-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.30);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.30);
+}
+
+/* -- Enable Mouse In To Tooltip -- */
+.TooltipWrapper .JayTooltip:before {
+  bottom: -20px;
+  content: " ";
+  display: block;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+/* CSS Triangles - see Trevor's post */
+.TooltipWrapper .JayTooltip:after {
+  border-left: solid transparent 10px;
+  border-right: solid transparent 10px;
+  border-top: solid rgba(0,0,0,0.73) 10px;
+  bottom: -10px;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -13px;
+  position: absolute;
+  width: 0;
+}
+
+.TooltipWrapper:hover .JayTooltip {
+  opacity: 1;
+  pointer-events: auto;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+/* IE can just show/hide with no transition */
+.lte8 .TooltipWrapper .JayTooltip {
+  display: none;
+}
+
+.lte8 .TooltipWrapper:hover .JayTooltip {
+  display: block;
+}
